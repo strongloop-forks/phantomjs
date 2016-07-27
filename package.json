@@ -1,5 +1,5 @@
 {
-  "name": "phantomjs-prebuilt",
+  "name": "bundled-phantomjs-prebuilt",
   "version": "2.1.14",
   "keywords": [
     "phantomjs",
@@ -7,7 +7,7 @@
     "webkit"
   ],
   "description": "Headless WebKit with JS API",
-  "homepage": "https://github.com/Medium/phantomjs",
+  "homepage": "https://github.com/strongloop-forks/phantomjs",
   "repository": {
     "type": "git",
     "url": "git://github.com/Medium/phantomjs.git"
@@ -20,14 +20,9 @@
   },
   "maintainers": [
     {
-      "name": "Dan Pupius",
-      "email": "dan@medium.com",
-      "web": "http://pupius.co.uk/"
-    },
-    {
-      "name": "Nick Santos",
-      "email": "nick@medium.com",
-      "web": "http://nick-santos.com/"
+      "name": "Ryan Graham",
+      "email": "rmg@ca.ibm.com",
+      "web": "https://github.com/rmg"
     }
   ],
   "main": "lib/phantomjs",
@@ -53,5 +48,16 @@
     "eslint": "2.7.0",
     "nodeunit": "0.9.1",
     "webdriverio": "~4.2.3"
-  }
+  },
+  "bundledDependencies": [
+    "es6-promise",
+    "extract-zip",
+    "fs-extra",
+    "hasha",
+    "kew",
+    "progress",
+    "request",
+    "request-progress",
+    "which"
+  ]
 }

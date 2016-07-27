@@ -1,5 +1,8 @@
-phantomjs-prebuilt
-==================
+bundled-phantomjs-prebuilt
+==========================
+
+> **FORK** This is a trivial fork of [phantomjs-prebuild](https://github.com/Medium/phantomjs)
+> The only difference is this version has the dependencies bundled so it works with npm@2
 
 An NPM installer for [PhantomJS](http://phantomjs.org/), headless webkit with JS API.
 
